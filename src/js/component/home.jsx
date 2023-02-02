@@ -17,13 +17,13 @@ return (
 	className={
 		"light red" + (selectedColor === "red" ? " glow" : '')}></div>
 			<div
-	onClick={() => setSelectedColor("red")}
+	onClick={() => setSelectedColor("yellow")}
 	className={
-		"light red" + (selectedColor === "red" ? " glow" : '')}></div>
+		"light yellow" + (selectedColor === "yellow" ? " glow" : '')}></div>
 			<div
-	onClick={() => setSelectedColor("red")}
+	onClick={() => setSelectedColor("green")}
 	className={
-		"light red" + (selectedColor === "red" ? " glow" : '')}></div>
+		"light green" + (selectedColor === "green" ? " glow" : '')}></div>
 </div>
 </>
  	)
